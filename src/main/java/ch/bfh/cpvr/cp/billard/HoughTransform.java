@@ -1,3 +1,5 @@
+package ch.bfh.cpvr.cp.billard;
+
 import ij.ImagePlus;
 import ij.gui.NewImage;
 import ij.plugin.PNG_Writer;

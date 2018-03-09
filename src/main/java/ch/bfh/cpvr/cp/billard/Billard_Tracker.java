@@ -1,12 +1,14 @@
-import java.awt.Color;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+package ch.bfh.cpvr.cp.billard;
 
 import ij.ImagePlus;
 import ij.gui.NewImage;
 import ij.plugin.PNG_Writer;
 import ij.plugin.filter.PlugInFilter;
-import ij.process.*;
+import ij.process.ImageProcessor;
+import ij.process.ImageStatistics;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class Billard_Tracker implements PlugInFilter
 {
